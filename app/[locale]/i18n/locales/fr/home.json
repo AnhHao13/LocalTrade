@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Bienvenue dans notre boutique",
+    "subtitle": "Découvrez des produits exceptionnels à des prix imbattables",
+    "cta": "Découvrir"
+  },
+  "categories": {
+    "title": "Acheter par catégorie",
+    "subtitle": "Parcourez nos catégories populaires"
+  },
+  "featured": {
+    "title": "Produits vedettes",
+    "subtitle": "Nos articles les plus populaires"
+  },
+  "newArrivals": {
+    "title": "Nouveautés",
+    "subtitle": "Découvrez nos derniers produits"
+  },
+  "bestSellers": {
+    "title": "Meilleures ventes",
+    "subtitle": "Produits les plus vendus ce mois-ci"
+  },
+  "promo": {
+    "title": "Soldes d'été",
+    "subtitle": "Offre limitée",
+    "description": "Jusqu'à 50% de réduction sur une sélection d'articles. Ne manquez pas !",
+    "cta": "Acheter maintenant"
+  },
+  "newsletter": {
+    "title": "Inscrivez-vous à notre newsletter",
+    "subtitle": "Recevez les dernières actualités sur les nouveaux produits et les ventes à venir",
+    "placeholder": "Entrez votre email",
+    "button": "S'inscrire",
+    "success": "Merci de votre inscription !"
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Livraison gratuite",
+      "description": "À partir de 50€ d'achat"
+    },
+    "securePayment": {
+      "title": "Paiement sécurisé",
+      "description": "100% sécurisé"
+    },
+    "support": {
+      "title": "Support 24/7",
+      "description": "Assistance dédiée"
+    },
+    "returns": {
+      "title": "Retours faciles",
+      "description": "30 jours pour changer d'avis"
+    }
+  }
+}

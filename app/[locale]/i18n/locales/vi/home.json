@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Chào mừng đến với Cửa hàng",
+    "subtitle": "Khám phá sản phẩm tuyệt vời với giá cả hấp dẫn",
+    "cta": "Mua ngay"
+  },
+  "categories": {
+    "title": "Danh mục sản phẩm",
+    "subtitle": "Khám phá các danh mục phổ biến"
+  },
+  "featured": {
+    "title": "Sản phẩm nổi bật",
+    "subtitle": "Những sản phẩm được yêu thích nhất"
+  },
+  "newArrivals": {
+    "title": "Hàng mới về",
+    "subtitle": "Khám phá sản phẩm mới nhất"
+  },
+  "bestSellers": {
+    "title": "Bán chạy nhất",
+    "subtitle": "Sản phẩm được mua nhiều nhất"
+  },
+  "promo": {
+    "title": "Giảm giá mùa hè",
+    "subtitle": "Ưu đãi có hạn",
+    "description": "Giảm đến 50% cho các sản phẩm được chọn. Đừng bỏ lỡ!",
+    "cta": "Mua ngay"
+  },
+  "newsletter": {
+    "title": "Đăng ký nhận bản tin",
+    "subtitle": "Nhận thông tin mới nhất về sản phẩm và khuyến mãi",
+    "placeholder": "Nhập email của bạn",
+    "button": "Đăng ký",
+    "success": "Cảm ơn bạn đã đăng ký!"
+  },
+  "features": {
+    "freeShipping": {
+      "title": "Miễn phí vận chuyển",
+      "description": "Đơn hàng trên 1.000.000₫"
+    },
+    "securePayment": {
+      "title": "Thanh toán an toàn",
+      "description": "Bảo mật 100%"
+    },
+    "support": {
+      "title": "Hỗ trợ 24/7",
+      "description": "Tư vấn tận tình"
+    },
+    "returns": {
+      "title": "Đổi trả dễ dàng",
+      "description": "Trong vòng 30 ngày"
+    }
+  }
+}

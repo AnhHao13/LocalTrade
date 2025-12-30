@@ -2,9 +2,11 @@
 
 @theme {
   /* === Base Theme Colors === */
-  --color-background: hsl(0 0% 100%);
+  /* Page background: light gray for subtle contrast */
+  --color-background: #F3F4F6;
   --color-foreground: hsl(222.2 84% 4.9%);
-  --color-card: hsl(0 0% 100%);
+  /* Card background stays white on light theme */
+  --color-card: #FFFFFF;
   --color-card-foreground: hsl(222.2 84% 4.9%);
   --color-popover: hsl(0 0% 100%);
   --color-popover-foreground: hsl(222.2 84% 4.9%);
@@ -22,6 +24,9 @@
   --color-input: hsl(214.3 31.8% 91.4%);
   --color-ring: hsl(221.2 83.2% 53.3%);
   --radius: 0.5rem;
+  /* Form border tokens (can be tuned per theme) */
+  --form-border: var(--color-border);
+  --form-border-width: 1px;
 
   /* === Header specific === */
   --header-height: 3.5rem;
@@ -87,10 +92,11 @@
   color-scheme: dark;
 
   /* === Base Theme Colors - Dark Mode === */
-  --color-background: hsl(222.2 84% 4.9%);
-  --color-foreground: hsl(210 40% 98%);
-  --color-card: hsl(222.2 84% 4.9%);
-  --color-card-foreground: hsl(210 40% 98%);
+  /* Redesigned dark palette: deep background, gentle card surface, softer text */
+  --color-background: #181616; /* deep navy background */
+  --color-foreground: #ffffff; /* softened text (muted white) */
+  --color-card: #2D2D2D; /* charcoal card surface for subtle contrast */
+  --color-card-foreground: #d1d9e1; /* gentle card text */
   --color-popover: hsl(222.2 84% 4.9%);
   --color-popover-foreground: hsl(210 40% 98%);
   --color-primary: hsl(217.2 91.2% 59.8%);
@@ -98,13 +104,17 @@
   --color-secondary: hsl(217.2 32.6% 17.5%);
   --color-secondary-foreground: hsl(210 40% 98%);
   --color-muted: hsl(217.2 32.6% 17.5%);
-  --color-muted-foreground: hsl(215 20.2% 65.1%);
+  --color-muted-foreground: #2D2D2D; /* darker muted text for readability */
   --color-accent: hsl(217.2 32.6% 17.5%);
   --color-accent-foreground: hsl(210 40% 98%);
   --color-destructive: hsl(0 62.8% 30.6%);
   --color-destructive-foreground: hsl(210 40% 98%);
-  --color-border: hsl(217.2 32.6% 17.5%);
-  --color-input: hsl(217.2 32.6% 17.5%);
+  /* borders and inputs tuned for dark theme */
+  --color-border: rgba(255,255,255,0.06); /* subtle light border for separation */
+  --color-input: hsl(0, 0, 96); /* darker input surface */
+  /* form borders: slightly thicker and more visible but not harsh */
+  --form-border: rgba(255,255,255,0.08);
+  --form-border-width: 1.6px;
   --color-ring: hsl(224.3 76.3% 48%);
 
   /* === Button System - Primary (Dark) === */
@@ -204,6 +214,19 @@ textarea,
 select {
   background-color: var(--color-input);
   color: var(--color-foreground);
+  /* Use theme-aware form border variables */
+  border: var(--form-border-width) solid var(--form-border);
+  box-shadow: none;
+}
+
+/* Make forms and controls stand out more in dark mode: thicker borders already
+   handled by variables; add subtle focus ring for accessibility */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-ring);
 }
 
 /* Header sticky behavior */

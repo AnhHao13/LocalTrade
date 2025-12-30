@@ -43,5 +43,19 @@
   "removeFromWishlist": "Remove from Wishlist",
   "share": "Share",
   "currency": "USD",
-  "language": "Language"
+  "language": "Language",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "myAccount": "My Account",
+  "logout": "Logout",
+  "popular": "Popular",
+  "shop": "Shop",
+  "contact": "Contact",
+  "pages": "Pages",
+  "blog": "Blog",
+  "shopWithSidebar": "Shop With Sidebar",
+  "shopWithoutSidebar": "Shop Without Sidebar",
+  "checkout": "Checkout",
+  "menu": "Menu",
+  "allCategories": "All Categories"
 }

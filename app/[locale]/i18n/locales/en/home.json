@@ -28,10 +28,12 @@
   },
   "newsletter": {
     "title": "Subscribe to Our Newsletter",
-    "subtitle": "Get the latest updates on new products and upcoming sales",
+    "subtitle": "Get the latest updates on new products and upcoming sales directly to your inbox.",
     "placeholder": "Enter your email",
     "button": "Subscribe",
-    "success": "Thank you for subscribing!"
+    "subscribing": "Subscribing...",
+    "success": "Thanks for subscribing! Check your inbox for confirmation.",
+    "disclaimer": "By subscribing, you agree to our Privacy Policy and consent to receive updates from our company."
   },
   "features": {
     "freeShipping": {

@@ -96,7 +96,6 @@ export const mainMenuConfig: MenuItem[] = [
  * Search categories for header search bar
  */
 export const searchCategoriesConfig: SearchCategory[] = [
-  { label: "All Categories", value: "all" },
   { label: "Desktop", value: "desktop" },
   { label: "Laptop", value: "laptop" },
   { label: "Monitor", value: "monitor" },

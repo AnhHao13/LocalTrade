@@ -43,5 +43,19 @@
   "removeFromWishlist": "Xóa khỏi yêu thích",
   "share": "Chia sẻ",
   "currency": "VND",
-  "language": "Ngôn ngữ"
+  "language": "Ngôn ngữ",
+  "signIn": "Đăng nhập",
+  "signUp": "Đăng ký",
+  "myAccount": "Tài khoản",
+  "logout": "Đăng xuất",
+  "popular": "Phổ biến",
+  "shop": "Cửa hàng",
+  "contact": "Liên hệ",
+  "pages": "Trang",
+  "blog": "Blog",
+  "shopWithSidebar": "Cửa hàng có thanh bên",
+  "shopWithoutSidebar": "Cửa hàng không thanh bên",
+  "checkout": "Thanh toán",
+  "menu": "Menu",
+  "allCategories": "Tất cả danh mục"
 }

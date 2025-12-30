@@ -94,7 +94,7 @@ export function Header() {
               onValueChange={setSelectedCategory}
             >
               <SelectTrigger className="w-35 rounded-r-none border-r-0 bg-muted/50">
-                <SelectValue placeholder={t("header.category")} />
+                <SelectValue placeholder={t("categories.all")} />
               </SelectTrigger>
               <SelectContent>
                 {categoryKeys.map((cat) => (

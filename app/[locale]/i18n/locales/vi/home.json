@@ -28,10 +28,12 @@
   },
   "newsletter": {
     "title": "Đăng ký nhận bản tin",
-    "subtitle": "Nhận thông tin mới nhất về sản phẩm và khuyến mãi",
+    "subtitle": "Nhận thông tin mới nhất về sản phẩm và khuyến mãi trực tiếp vào hộp thư của bạn.",
     "placeholder": "Nhập email của bạn",
     "button": "Đăng ký",
-    "success": "Cảm ơn bạn đã đăng ký!"
+    "subscribing": "Đang đăng ký...",
+    "success": "Cảm ơn bạn đã đăng ký! Vui lòng kiểm tra hộp thư của bạn để xác nhận.",
+    "disclaimer": "Bằng cách đăng ký, bạn đồng ý với Chính sách Bảo mật của chúng tôi và chấp nhận nhận tin cập nhật từ công ty chúng tôi."
   },
   "features": {
     "freeShipping": {

@@ -28,10 +28,12 @@
   },
   "newsletter": {
     "title": "Inscrivez-vous à notre newsletter",
-    "subtitle": "Recevez les dernières actualités sur les nouveaux produits et les ventes à venir",
+    "subtitle": "Recevez les dernières actualités sur les nouveaux produits et les ventes à venir directement dans votre boîte de réception.",
     "placeholder": "Entrez votre email",
     "button": "S'inscrire",
-    "success": "Merci de votre inscription !"
+    "subscribing": "Inscription en cours...",
+    "success": "Merci de votre inscription ! Veuillez vérifier votre boîte de réception pour la confirmation.",
+    "disclaimer": "En vous inscrivant, vous acceptez notre Politique de confidentialité et consentez à recevoir des mises à jour de notre entreprise."
   },
   "features": {
     "freeShipping": {

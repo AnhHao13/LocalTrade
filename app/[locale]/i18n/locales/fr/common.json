@@ -43,5 +43,19 @@
   "removeFromWishlist": "Retirer des favoris",
   "share": "Partager",
   "currency": "EUR",
-  "language": "Langue"
+  "language": "Langue",
+  "signIn": "Connexion",
+  "signUp": "S'inscrire",
+  "myAccount": "Mon compte",
+  "logout": "Déconnexion",
+  "popular": "Populaire",
+  "shop": "Boutique",
+  "contact": "Contact",
+  "pages": "Pages",
+  "blog": "Blog",
+  "shopWithSidebar": "Boutique avec barre latérale",
+  "shopWithoutSidebar": "Boutique sans barre latérale",
+  "checkout": "Paiement",
+  "menu": "Menu",
+  "allCategories": "Toutes les catégories"
 }

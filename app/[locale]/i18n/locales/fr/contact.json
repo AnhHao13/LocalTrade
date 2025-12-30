@@ -1,0 +1,21 @@
+{
+  "title": "Contactez-nous",
+  "description": "Une question ou besoin d'aide ? Envoyez-nous un message et nous vous répondrons dès que possible.",
+  "info": {
+    "heading": "Informations de contact",
+    "address": "7398 Smoke Ranch Road, Las Vegas, NV 89128",
+    "email": "support@example.com",
+    "phone": "(123) 456-7890"
+  },
+  "form": {
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "namePlaceholder": "Jean Dupont",
+    "emailPlaceholder": "jean@example.com",
+    "subjectPlaceholder": "Sujet",
+    "messagePlaceholder": "Tapez votre message",
+    "submit": "Envoyer le message"
+  }
+}

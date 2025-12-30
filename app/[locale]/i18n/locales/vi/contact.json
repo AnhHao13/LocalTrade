@@ -1,0 +1,21 @@
+{
+  "title": "Liên hệ",
+  "description": "Có câu hỏi hay cần trợ giúp? Gửi tin nhắn cho chúng tôi và chúng tôi sẽ phản hồi sớm nhất có thể.",
+  "info": {
+    "heading": "Thông tin liên hệ",
+    "address": "7398 Smoke Ranch Road, Las Vegas, NV 89128",
+    "email": "support@example.com",
+    "phone": "(123) 456-7890"
+  },
+  "form": {
+    "name": "Họ và tên",
+    "email": "Email",
+    "subject": "Tiêu đề",
+    "message": "Tin nhắn",
+    "namePlaceholder": "Nguyễn Văn A",
+    "emailPlaceholder": "john@example.com",
+    "subjectPlaceholder": "Tiêu đề",
+    "messagePlaceholder": "Nhập tin nhắn của bạn",
+    "submit": "Gửi tin nhắn"
+  }
+}
